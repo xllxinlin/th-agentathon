@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <title>Contoso Thailand Workplace Agent-a-thon</title>
+  <meta name="description" content="Bilingual participant challenge portal for the Contoso Thailand Workplace Agent-a-thon." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="top-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-chip">A</span>
+        <span class="brand-copy">
+          <strong>Agent-a-thon</strong>
+          <small>Contoso Thailand</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#mission" data-i18n="navMission">Mission</a>
+        <a href="#essentials" data-i18n="navEssentials">3 Essentials</a>
+        <a href="#ideas" data-i18n="navIdeas">Ideas</a>
+        <a href="#resources" data-i18n="navResources">Resources</a>
+        <a href="#timeline" data-i18n="navTimeline">Timeline</a>
+        <a href="#judging" data-i18n="navJudging">Judging</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="th">ไทย</button>
+          <button type="button" class="lang-btn" data-lang="bi">EN + ไทย</button>
+        </div>
+        <a class="mini-btn resource-link" href="#" target="_blank" rel="noopener noreferrer">
+          <span data-i18n="resourcesButton">Resources</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="time-badge">14:45–15:45</div>
+          <p class="eyebrow" data-i18n="heroEyebrow">Microsoft Copilot Studio Challenge</p>
+          <h1 data-i18n="heroTitle">Build an AI agent that makes everyday work easier.</h1>
+          <p class="hero-lead" data-i18n="heroLead">
+            Design a useful workplace agent for Contoso Thailand. Choose the problem, shape the experience, and show what makes your solution different.
+          </p>
+
+          <div class="hero-cta-row">
+            <a class="btn btn-orange" href="#mission" data-i18n="startChallenge">Start Challenge</a>
+            <a class="btn btn-outline resource-link" href="#" target="_blank" rel="noopener noreferrer" data-i18n="openResources">Open Resource Folder</a>
+          </div>
+
+          <div class="hero-facts">
+            <div class="fact">
+              <span class="fact-num">60</span>
+              <span class="fact-label" data-i18n="minutes">minutes</span>
+            </div>
+            <div class="fact">
+              <span class="fact-num">3</span>
+              <span class="fact-label" data-i18n="essentials">essentials</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-glow"></div>
+          <div class="screen-card">
+            <div class="screen-top">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="screen-body">
+              <div class="agent-head">
+                <div class="agent-orb"></div>
+                <div>
+                  <small>COPILOT STUDIO</small>
+                  <strong>WORKPLACE AGENT</strong>
+                </div>
+              </div>
+              <div class="screen-lines">
+                <span class="line w90"></span>
+                <span class="line w72"></span>
+                <span class="line w84"></span>
+                <span class="line w58"></span>
+              </div>
+              <div class="mini-cards">
+                <div class="mini-card">
+                  <span>01</span>
+                  <b data-i18n="knowledge">Knowledge</b>
+                </div>
+                <div class="mini-card">
+                  <span>02</span>
+                  <b data-i18n="instructions">Instructions</b>
+                </div>
+                <div class="mini-card">
+                  <span>03</span>
+                  <b data-i18n="tool">Tool</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note note-a" data-i18n="floatingA">Use real knowledge</div>
+          <div class="floating-note note-b" data-i18n="floatingB">Make the agent act</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="mission">
+      <div class="shell">
+        <div class="section-title-wrap light">
+          <span class="kicker">01</span>
+          <div>
+            <p class="eyebrow" data-i18n="missionEyebrow">Your Mission</p>
+            <h2 data-i18n="missionTitle">Solve one workplace problem well.</h2>
+          </div>
+        </div>
+
+        <div class="mission-grid">
+          <div class="mission-copy">
+            <p data-i18n="missionText">
+              Your team will design and build an AI agent for Contoso Thailand employees. You may focus on Workplace, Technology, Business Travel, or combine them where it creates a better user experience.
+            </p>
+            <div class="mission-quote">
+              <span>✦</span>
+              <p data-i18n="missionNote">There is no single correct solution. A focused agent that works reliably is better than a large agent with many unfinished features.</p>
+            </div>
+          </div>
+
+          <div class="mission-checks">
+            <div>
+              <span class="check-dot"></span>
+              <strong data-i18n="missionCheck1Title">Choose a real problem</strong>
+              <small data-i18n="missionCheck1Text">Be specific about the user and the outcome.</small>
+            </div>
+            <div>
+              <span class="check-dot"></span>
+              <strong data-i18n="missionCheck2Title">Use the provided resources</strong>
+              <small data-i18n="missionCheck2Text">Pick only the knowledge and data relevant to your idea.</small>
+            </div>
+            <div>
+              <span class="check-dot"></span>
+              <strong data-i18n="missionCheck3Title">Show something unique</strong>
+              <small data-i18n="missionCheck3Text">Go beyond the baseline with your own design choices.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="essentials">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="essentialsEyebrow">02 · The baseline</p>
+          <h2 data-i18n="essentialsTitle">Every solution must demonstrate these 3 essentials.</h2>
+          <p data-i18n="essentialsIntro">These are the minimum requirements. Everything beyond them is where your creativity comes in.</p>
+        </div>
+
+        <div class="essentials-grid">
+          <article class="essential-card">
+            <div class="essential-icon db-icon"></div>
+            <span class="card-num">01</span>
+            <h3 data-i18n="knowledge">Knowledge</h3>
+            <p data-i18n="knowledgeText">Connect your agent to at least one provided knowledge source and use it to answer relevant questions accurately.</p>
+            <div class="card-pill" data-i18n="knowledgePill">Grounded answers</div>
+          </article>
+
+          <article class="essential-card">
+            <div class="essential-icon prompt-icon"></div>
+            <span class="card-num">02</span>
+            <h3 data-i18n="instructions">Agent Instructions</h3>
+            <p data-i18n="instructionsText">Define the agent’s role, behaviour, boundaries, and how it should handle unclear or unsupported questions.</p>
+            <div class="card-pill" data-i18n="instructionsPill">Consistent behaviour</div>
+          </article>
+
+          <article class="essential-card">
+            <div class="essential-icon bolt-icon">⚡</div>
+            <span class="card-num">03</span>
+            <h3 data-i18n="tool">Tool</h3>
+            <p data-i18n="toolText">Create or configure at least one simple tool that retrieves structured information or performs a useful action.</p>
+            <div class="card-pill" data-i18n="toolPill">Take action</div>
+          </article>
+        </div>
+
+        <div class="creativity-strip">
+          <div class="creativity-copy">
+            <span class="spark">✦</span>
+            <div>
+              <p class="eyebrow" data-i18n="creativeEyebrow">Make it yours</p>
+              <h3 data-i18n="creativeTitle">The three essentials get you started. Creativity is what makes your agent stand out.</h3>
+            </div>
+          </div>
+          <div class="creativity-tags">
+            <span data-i18n="creativeTag1">Persona</span>
+            <span data-i18n="creativeTag2">Clarification</span>
+            <span data-i18n="creativeTag3">Extra tools</span>
+            <span data-i18n="creativeTag4">Custom flows</span>
+            <span data-i18n="creativeTag5">Structured outputs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section warm-section" id="ideas">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="ideasEyebrow">03 · Need inspiration?</p>
+          <h2 data-i18n="ideasTitle">Pick a direction, not a template.</h2>
+          <p data-i18n="ideasIntro">These are idea starters only. You are encouraged to design something different.</p>
+        </div>
+
+        <div class="idea-grid">
+          <article class="idea-card">
+            <div class="idea-no">A</div>
+            <h3 data-i18n="workplaceTitle">Workplace</h3>
+            <p data-i18n="workplaceText">Office Concierge · Visitor Assistant · Facilities Navigator · Meeting & Office Guide</p>
+          </article>
+          <article class="idea-card">
+            <div class="idea-no">B</div>
+            <h3 data-i18n="technologyTitle">Technology</h3>
+            <p data-i18n="technologyText">Equipment Advisor · Device Request Assistant · Digital Workplace Helper</p>
+          </article>
+          <article class="idea-card">
+            <div class="idea-no">C</div>
+            <h3 data-i18n="travelTitle">Business Travel</h3>
+            <p data-i18n="travelText">Travel Policy Assistant · Expense Advisor · Trip Readiness Agent</p>
+          </article>
+          <article class="idea-card">
+            <div class="idea-no">D</div>
+            <h3 data-i18n="crossTitle">Cross-domain</h3>
+            <p data-i18n="crossText">A Workplace Service Navigator that understands the need and routes the employee to the right knowledge or action.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resource-section" id="resources">
+      <div class="shell">
+        <div class="resource-hero">
+          <div>
+            <p class="eyebrow light-orange" data-i18n="resourcesEyebrow">04 · Resource hub</p>
+            <h2 data-i18n="resourcesTitle">Everything you need is in one folder.</h2>
+            <p data-i18n="resourcesText">Download the workshop knowledge-base files and structured sample data. Use only the resources relevant to the agent you choose to build.</p>
+            <a class="btn btn-light resource-link" href="#" target="_blank" rel="noopener noreferrer" data-i18n="openResources">Open Resource Folder</a>
+            <small class="resource-language-note" data-i18n="resourceLanguage">Knowledge-base materials are provided in English.</small>
+          </div>
+
+          <div class="resource-cards">
+            <article class="resource-card">
+              <span class="filetype">DOCX</span>
+              <div>
+                <strong data-i18n="res1Title">Workplace & Office Guide</strong>
+                <small data-i18n="res1Text">Access, visitors, parking, rooms, facilities, deliveries and safety.</small>
+              </div>
+            </article>
+            <article class="resource-card">
+              <span class="filetype">DOCX</span>
+              <div>
+                <strong data-i18n="res2Title">IT Equipment & Digital Workplace Policy</strong>
+                <small data-i18n="res2Text">Devices, monitors, software, lifecycle, lost devices and requests.</small>
+              </div>
+            </article>
+            <article class="resource-card">
+              <span class="filetype">DOCX</span>
+              <div>
+                <strong data-i18n="res3Title">Business Travel & Expense Policy</strong>
+                <small data-i18n="res3Text">Approvals, hotel limits, transport, meals, claims and exceptions.</small>
+              </div>
+            </article>
+            <article class="resource-card">
+              <span class="filetype">DOCX</span>
+              <div>
+                <strong data-i18n="res4Title">Workplace Services FAQ</strong>
+                <small data-i18n="res4Text">Short cross-cutting answers that complement the main policies.</small>
+              </div>
+            </article>
+            <article class="resource-card">
+              <span class="filetype filetype-xlsx">XLSX</span>
+              <div>
+                <strong data-i18n="res5Title">Structured Data for Tools</strong>
+                <small data-i18n="res5Text">Service catalogue, equipment requests, visitor requests and employee directory.</small>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="timeline">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="timelineEyebrow">05 · 60-minute build</p>
+          <h2 data-i18n="timelineTitle">Keep moving. Test early.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-step">
+            <div class="time">00–05</div>
+            <div class="step-card">
+              <span class="step-no">1</span>
+              <strong data-i18n="t1Title">Choose the problem</strong>
+              <p data-i18n="t1Text">Define the target user, use case and agent name.</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="time">05–15</div>
+            <div class="step-card">
+              <span class="step-no">2</span>
+              <strong data-i18n="t2Title">Set the behaviour</strong>
+              <p data-i18n="t2Text">Create the agent and configure clear instructions.</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="time">15–25</div>
+            <div class="step-card">
+              <span class="step-no">3</span>
+              <strong data-i18n="t3Title">Connect knowledge</strong>
+              <p data-i18n="t3Text">Add the relevant KB and test realistic questions.</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="time">25–40</div>
+            <div class="step-card">
+              <span class="step-no">4</span>
+              <strong data-i18n="t4Title">Add a tool</strong>
+              <p data-i18n="t4Text">Create one useful lookup or action and run it end-to-end.</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="time">40–52</div>
+            <div class="step-card">
+              <span class="step-no">5</span>
+              <strong data-i18n="t5Title">Improve it</strong>
+              <p data-i18n="t5Text">Handle ambiguity, missing information and creative enhancements.</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="time">52–60</div>
+            <div class="step-card">
+              <span class="step-no">6</span>
+              <strong data-i18n="t6Title">Prepare your showcase</strong>
+              <p data-i18n="t6Text">Pick one strong scenario and make sure it works.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section judge-section" id="judging">
+      <div class="shell">
+        <div class="section-heading light-heading">
+          <p class="eyebrow light-orange" data-i18n="judgingEyebrow">06 · Judging</p>
+          <h2 data-i18n="judgingTitle">Build something useful — and prove it works.</h2>
+        </div>
+
+        <div class="judge-grid">
+          <div class="judge-card">
+            <span>25%</span>
+            <strong data-i18n="judge1">Business usefulness</strong>
+          </div>
+          <div class="judge-card">
+            <span>20%</span>
+            <strong data-i18n="judge2">Knowledge use & accuracy</strong>
+          </div>
+          <div class="judge-card">
+            <span>20%</span>
+            <strong data-i18n="judge3">Tool implementation</strong>
+          </div>
+          <div class="judge-card">
+            <span>15%</span>
+            <strong data-i18n="judge4">Agent instructions & behaviour</strong>
+          </div>
+          <div class="judge-card">
+            <span>15%</span>
+            <strong data-i18n="judge5">Creativity / innovation</strong>
+          </div>
+          <div class="judge-card">
+            <span>5%</span>
+            <strong data-i18n="judge6">Demo quality</strong>
+          </div>
+        </div>
+
+        <div class="finish-panel">
+          <div>
+            <p class="eyebrow" data-i18n="finishEyebrow">Before time is up</p>
+            <h3 data-i18n="finishTitle">Your showcase should make these five things clear.</h3>
+          </div>
+          <ol>
+            <li data-i18n="finish1">What workplace problem does your agent solve?</li>
+            <li data-i18n="finish2">How does it use the provided knowledge?</li>
+            <li data-i18n="finish3">What important behaviour did you configure in the instructions?</li>
+            <li data-i18n="finish4">What does your tool do?</li>
+            <li data-i18n="finish5">What makes your solution different or especially useful?</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-row">
+      <div>
+        <strong>Contoso Thailand Workplace Agent-a-thon</strong>
+        <span data-i18n="footerText">Participant challenge portal</span>
+      </div>
+      <a href="#top" data-i18n="backTop">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
